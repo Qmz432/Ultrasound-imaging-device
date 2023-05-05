@@ -1,4 +1,4 @@
-%换能器参数及设计
+%Parameters and design of transducer
 param.Nelements = 256;
 param.fc = 5e6; 
 param.pitch = 270e-6; 
@@ -22,7 +22,7 @@ c = colorbar('SouthOutside');
 c.Label.String = 'TX apodization';
 title('256-element matrix array apodization')
 
-%设计传输延时,选择焦点,计算传输延时时间,可视化
+%Design transmission delay, select focus, calculate transmission delay time, visualization
 xf = 0; yf = 0; zf = 60e-3; 
 txdel = txdelay3(xf,yf,zf,param); 
 
@@ -34,8 +34,8 @@ c.Label.String = 'TX delays (ns)';
 colormap([1-hot;hot])
 title('256-element matrix array trasmit delay')
 
-%Genscat,生成散射体
-%PFILED3模拟声场
+%Genscat,Generating scatterer
+%PFILED3,Simulated sound field
 h = cos(linspace(-pi/4,pi/4,16));
 h = h'*h;
 param.TXapodization = h(:);
@@ -95,7 +95,7 @@ xlabel('x')
 ylabel('y')
 view(-25,20)
 % 
-% %SIMUS3模拟RF信号生成了一个点扫描成像的图像
+% 
 % x0 = 0; y0 = 0; z0 = 3e-2;
 % txdel = txdelay3(x0,y0,z0,param);
 % n = 24;
