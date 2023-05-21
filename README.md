@@ -11,6 +11,7 @@ This project aims at designing an easy self-made ultrasound imaging device. It m
 ### Recent works and plan
 ### Update History
 - On May 13th,2023:working on Version2.0
+- On May 21st,2023:Writing the course reports, did nothing but update this Update History. Promise to finish the PCB design of Vesion2.0 in late June. /(ToT)/~~
 
 ## References
 ### Overview 
