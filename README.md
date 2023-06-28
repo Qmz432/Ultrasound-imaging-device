@@ -13,6 +13,7 @@ This project aims at designing an easy self-made ultrasound imaging device. It m
 - On May 13th,2023:working on Version2.0
 - On May 21st,2023:Writing the course reports, did nothing but update this Update History. Promise to finish the PCB design of Vesion2.0 in late June. /(ToT)/~~
 - On May 29th,2023:doing a little work on Version 2.0 caused the Dammm final work and covid virus dominated me mentally and physically🤧.
+- On June 28th,2023:finally update it, though I still don't complete the version2.0 and you could see my progress by the file "pcb0628". I have to optimize my layout to process the routing. Also, I prepared to purchase the BOM while HV7361GA-G and AD8331ARQZ-R7 were sold out, which made my mind to do a Version 3.0 circuit. Maybe it's also because Version 2.0 is too difficult to handle.
 
 ## References
 ### Overview 
